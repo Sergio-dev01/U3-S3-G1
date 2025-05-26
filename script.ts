@@ -6,23 +6,23 @@ let knowTypeScript: boolean = true;
 // 3)
 const greet = (name: string): string => {
   return "Ciao " + name;
-  console.log(greet("Sergio"));
 };
+console.log(greet("Sergio"));
 // 4)
 const sum = (a: number, b: number): number => {
   return a + b;
-  console.log(sum(5, 10));
 };
+console.log(sum(5, 10));
 // 5)
 const priceWithIVA = (prezzo: number): number => {
   return prezzo * 1.22;
-  console.log(priceWithIVA(100));
 };
+console.log(priceWithIVA(100));
 // 6)
 const concatLength = (a: string, b: string): number => {
   return (a + b).length;
-  console.log(concatLength("Hello", "World"));
 };
+console.log(concatLength("Hello", "World"));
 // 7) Permette ad una variabile di avere due tipi:
 // let valore: string | number;
 // 8)
